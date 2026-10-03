@@ -1,0 +1,102 @@
+[
+  {
+    "id": "feedback-01",
+    "category": "bug",
+    "text": "Export freezes at 90 percent."
+  },
+  {
+    "id": "feedback-02",
+    "category": "bug",
+    "text": "The save button stays disabled."
+  },
+  {
+    "id": "feedback-03",
+    "category": "bug",
+    "text": "Search returns deleted projects."
+  },
+  {
+    "id": "feedback-04",
+    "category": "bug",
+    "text": "Uploading a PDF shows a blank page."
+  },
+  {
+    "id": "feedback-05",
+    "category": "bug",
+    "text": "Dark mode resets after restart."
+  },
+  {
+    "id": "feedback-06",
+    "category": "bug",
+    "text": "The invite link expires immediately."
+  },
+  {
+    "id": "feedback-07",
+    "category": "bug",
+    "text": "Mobile navigation overlaps the editor."
+  },
+  {
+    "id": "feedback-08",
+    "category": "bug",
+    "text": "The progress bar never completes."
+  },
+  {
+    "id": "feedback-09",
+    "category": "feature-request",
+    "text": "Please add bulk export."
+  },
+  {
+    "id": "feedback-10",
+    "category": "feature-request",
+    "text": "I want a weekly digest."
+  },
+  {
+    "id": "feedback-11",
+    "category": "feature-request",
+    "text": "Add keyboard shortcuts for navigation."
+  },
+  {
+    "id": "feedback-12",
+    "category": "feature-request",
+    "text": "Please support custom project tags."
+  },
+  {
+    "id": "feedback-13",
+    "category": "feature-request",
+    "text": "Let us share read-only previews."
+  },
+  {
+    "id": "feedback-14",
+    "category": "feature-request",
+    "text": "Add a template for onboarding."
+  },
+  {
+    "id": "feedback-15",
+    "category": "praise",
+    "text": "The new editor is easy to use."
+  },
+  {
+    "id": "feedback-16",
+    "category": "praise",
+    "text": "Export quality looks excellent."
+  },
+  {
+    "id": "feedback-17",
+    "category": "praise",
+    "text": "The team dashboard saves us time."
+  },
+  {
+    "id": "feedback-18",
+    "category": "praise",
+    "text": "Setup took only a few minutes."
+  },
+  {
+    "id": "feedback-19",
+    "category": "other",
+    "text": "Where can I find the documentation?"
+  },
+  {
+    "id": "feedback-20",
+    "category": "other",
+    "text": "Our team is exploring the free trial."
+  }
+]
