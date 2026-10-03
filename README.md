@@ -19,8 +19,10 @@ Use $demo-orchestrator to run the bundled product-feedback demo.
 Installation adds files; it does not launch the workflow. The launched child runs:
 
 ```sh
-npx -y skills@1.7.0 add random-react-dev/two-skill-demo --skill demo-feedback-worker -a codex -g -y
+npx -y skills@1.7.0 add https://github.com/random-react-dev/two-skill-demo/tree/7fde0ea8f9ef2307108807284e8a9163a1d9603e/skills/demo-feedback-worker --skill demo-feedback-worker -a codex -g -y
 ```
+
+The coordinator pins the worker to a reviewed commit and supplies expected SHA-256 values for its instructions, script, and fixture. The child verifies all three before reading or executing the worker. A mismatch returns `BLOCKED`.
 
 The first `-y` accepts the npx package prompt. The last `-y` accepts the skills CLI prompts. These flags do not change Codex permissions. Global installation targets the user's skills directories, not a separate child-only filesystem.
 
